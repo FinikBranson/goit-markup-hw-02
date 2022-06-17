@@ -1,12 +1,93 @@
 body{
+    font-family: 'Roboto';
 color: #2196F3;
 }
 
-/* logo */
-.logo {
+
+/* logo header */
+.logo{
+
+}
+
+/* site page navigation */
+.nav-link{
 
 }
 
 
 
+/* navigation link classes */
+.contacts-link{
 
+}
+    
+/* section hero */
+.main-title{
+
+}
+
+.order-button{
+
+}
+
+
+/* Benefits section */
+
+.benefits{
+
+}
+
+.title-benefits{
+
+}
+
+.text-benefits{
+
+}
+
+/* list of activities */
+
+.title-activities{
+
+}
+
+.img-activities{
+
+}
+
+/* about the team */
+
+.title-team{
+
+}
+
+
+.img-employee{
+
+}
+
+
+.name{
+
+}
+
+
+.speciality{
+
+}
+
+/* how to find us section */
+
+.adress-link{
+
+}
+
+/* contacts navigation */
+
+.mail-link{
+
+}
+
+.tel-link{
+    
+}

@@ -22,15 +22,15 @@
           <!-- site page navigation -->
 
           <li>
-            <a href="">Студия</a>
+            <a class="nav-link" href="">Студия</a>
           </li>
 
           <li>
-            <a href="./portfolio.html">Портфолио</a>
+            <a class="nav-link" href="./portfolio.html">Портфолио</a>
           </li>
 
           <li>
-            <a href="">Контакты</a>
+            <a class="nav-link" href="">Контакты</a>
           </li>
         </ul>
       </nav>
@@ -38,11 +38,11 @@
       <!-- contacts navigation -->
       <ul>
         <li>
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
 
         <li>
-          <a href="tel:+380961111111">+38 096 111 11 11</a>
+          <a class="contacts-link" href="tel:+380961111111">+38 096 111 11 11</a>
         </li>
       </ul>
     </header>
@@ -51,37 +51,41 @@
 
     <main>
       <section>
-        <h1>Эффективные решения для вашего бизнеса</h1>
-        <button type="button">Заказать услугу</button>
+        <h1 class="main-title">Эффективные решения для вашего бизнеса</h1>
+        <button class="order-button" type="button">Заказать услугу</button>
       </section>
 
       <!-- Benefits section -->
 
       <section>
-        <h2>наши преимущества</h2>
+        <h2 class="benefits">наши преимущества</h2>
         <ul>
           <li>
-            <h3>Внимание к деталям</h3>
-            <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+            <h3 class="title-benefits">Внимание к деталям</h3>
+            <p class="text-benefits">
+              Идейные соображения, а также начало повседневной работы по формированию позиции.
+            </p>
           </li>
 
           <li>
-            <h3>Пунктуальность</h3>
-            <p>
+            <h3 class="title-benefits">Пунктуальность</h3>
+            <p class="text-benefits">
               Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
             </p>
           </li>
 
           <li>
-            <h3>Планирование</h3>
-            <p>
+            <h3 class="title-benefits">Планирование</h3>
+            <p class="text-benefits">
               Равным образом консультация с широким активом в значительной степени обуславливает.
             </p>
           </li>
 
           <li>
-            <h3>Современные технологии</h3>
-            <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+            <h3 class="title-benefits">Современные технологии</h3>
+            <p class="text-benefits">
+              Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+            </p>
           </li>
         </ul>
       </section>
@@ -89,17 +93,18 @@
       <!-- list of activities -->
 
       <section>
-        <h2>Чем мы занимаемся</h2>
+        <h2 class="title-activities">Чем мы занимаемся</h2>
         <ul>
-          <li>
+          <li class="img-activities">
             <img
+              
               src="./images/box-1.jpg"
               alt="монитор с изображением программного кода и мужские руки на клавиатуре"
               width="370"
             />
           </li>
 
-          <li>
+          <li class="img-activities"
             <img
               src="./images/box-2.jpg"
               alt="девушка с телефоном в руках перед ноутбуком"
@@ -107,7 +112,7 @@
             />
           </li>
 
-          <li>
+          <li class="img-activities">
             <img
               src="./images/box-3.jpg"
               alt="пленшет в женских руках с изображением плитры цветов"
@@ -117,32 +122,32 @@
         </ul>
       </section>
 
-      <!-- list of activities -->
-
+<!-- about the team -->
+       
       <section>
-        <h2>Наша команда</h2>
+        <h2 class="title-team">Наша команда</h2>
         <ul>
           <li>
-            <img src="./images/team-foto-1.jpg" alt="первый участник команды" width="270" />
-            <h3>Игорь Демьяненко</h3>
-            <p>Product Designer</p>
+            <img class="img-employee" src="./images/team-foto-1.jpg" alt="первый участник команды" width="270" />
+            <h3 class="name">Игорь Демьяненко</h3>
+            <p class="speciality">Product Designer</p>
           </li>
 
           <li>
-            <img src="./images/team-foto-2.jpg" alt="второй участник команды" width="270" />
-            <h3>Ольга Репина</h3>
+            <img class="img-employee" src="./images/team-foto-2.jpg" alt="второй участник команды" width="270" />
+            <h3 class="name">Ольга Репина</h3>
             <p>Frontend Developer</p>
           </li>
 
           <li>
-            <img src="./images/team-foto-3.jpg" alt="третий участник команды" width="270" />
-            <h3>Николай Тарасов</h3>
+            <img class="img-employee" src="./images/team-foto-3.jpg" alt="третий участник команды" width="270" />
+            <h3 class="name">Николай Тарасов</h3>
             <p>Marketing</p>
           </li>
 
           <li>
-            <img src="./images/team-foto-4.jpg" alt="четвертый участник команды" width="270" />
-            <h3>Михаил Ермаков</h3>
+            <img class="img-employee" src="./images/team-foto-4.jpg" alt="четвертый участник команды" width="270" />
+            <h3 class="name">Михаил Ермаков</h3>
             <p>UI Designer</p>
           </li>
         </ul>
@@ -156,7 +161,7 @@
         <a class="logo" href="./index.html">WebStudio</a>
         <ul>
           <li>
-            <a
+            <a class="adress-link"
               href="https://goo.gl/maps/piqngm7oDQpEDh6u6"
               target="_blank"
               rel="noopener nofollow noreferrer"
@@ -166,11 +171,11 @@
 
           <!-- contacts navigation -->
 
-          <li>
+          <li class="mail-link">
             <a href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
 
-          <li>
+          <li class="tel-link">
             <a href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
