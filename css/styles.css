@@ -1,40 +1,94 @@
-body{
-    font-family: 'Roboto';
-color: #2196F3;
+:root{
+    --dominant-colour: #2196F3;
+    --title-colour: #212121;
+    --text-colour:#757575;
+    --translucent-contact-color: rgba(255, 255, 255, 0.6);
+    --light-theme-logo: #FFFFFF;
+    --dark-theme-logo: #000000;
+    --selected-color:
+}
+
+body {
+    font-family: 'Roboto', 'Verdana' ,'Tahoma' ,sans-serif;
+    color: #757575;
 }
 
 
 /* logo header */
 .logo{
-
+text-decoration: none;
 }
 
 /* site page navigation */
-.nav-link{
 
+.nav-link {
+text-decoration: none;
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,43;
+    color: var(--title-colour);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+color: #2196F3;
 }
 
 
 
 /* navigation link classes */
-.contacts-link{
-
+.contacts-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,43;
+    color: var(--text-colour);
+    text-decoration: none;
 }
+
+.contacts-link:hover,
+.contacts-link:focus {
+color: #2196F3;
+}
+
+
     
 /* section hero */
-.main-title{
 
+.main-title{
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    color: var(--light-theme-logo)
 }
 
 .order-button{
-
+font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    cursor: pointer;
 }
 
 
 /* Benefits section */
 
 .benefits{
+position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
 
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .title-benefits{
@@ -89,5 +143,5 @@ color: #2196F3;
 }
 
 .tel-link{
-    
+
 }
