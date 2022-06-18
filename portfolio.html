@@ -18,21 +18,21 @@
       <nav>
         <!-- logo -->
 
-        <a class="logo" href="./index.html">WebStudio</a>
+        <a class="logo-brand" href="./index.html">Web<span class="logo-dark">Studio</span></a>
 
         <!-- site page navigation -->
 
         <ul>
           <li>
-            <a href="./index.html">Студия</a>
+            <a class="nav-link" href="./index.html">Студия</a>
           </li>
 
           <li>
-            <a href="./portfolio.html">Портфолио</a>
+            <a class="nav-link" href="./portfolio.html">Портфолио</a>
           </li>
 
           <li>
-            <a href="">Контакты</a>
+            <a class="nav-link" href="">Контакты</a>
           </li>
         </ul>
       </nav>
@@ -41,62 +41,66 @@
 
       <ul>
         <li>
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a class="portfolio-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
         <li>
-          <a href="tel:+380961111111">+38 096 111 11 11</a>
+          <a class="portfolio-link" href="tel:+380961111111">+38 096 111 11 11</a>
         </li>
       </ul>
     </header>
 
     <main>
       <section>
-        <h1>Наши работы</h1>
+        <h1 class="title-examples">Наши работы</h1>
 
         <!-- filter buttons -->
 
         <ul>
           <li>
-            <button type="button">Все</button>
+            <button class="filters" type="button">Все</button>
           </li>
           <li>
-            <button type="button">Веб-сайты</button>
+            <button class="filters" type="button">Веб-сайты</button>
           </li>
           <li>
-            <button type="button">Приложения</button>
+            <button class="filters" type="button">Приложения</button>
           </li>
           <li>
-            <button type="button">Дизайн</button>
+            <button class="filters" type="button">Дизайн</button>
           </li>
           <li>
-            <button type="button">Маркетинг</button>
+            <button class="filters" type="button">Маркетинг</button>
           </li>
         </ul>
 
         <!-- examples of work first line -->
 
-        <ul>
+        <ul class="cases">
           <a href="#"
             ><li>
               <img src="./images/example-1.jpg" alt="пример работы один" width="370" height="294" />
-              <h2>Технокряк</h2>
-              <p>Веб-сайт</p>
+              <h2 class="title-example">Технокряк</h2>
+              <p class="text-example">Веб-сайт</p>
             </li>
           </a>
 
           <a href="#"
             ><li>
               <img src="./images/example-2.jpg" alt="пример работы два" width="370" height="294" />
-              <h2>Постер <span lang="en">New Orlean vs Golden Star</span></h2>
-              <p>Дизайн</p>
+              <h2 class="title-example">
+                Постер <span class="title-example" lang="en">New Orlean vs Golden Star</span>
+              </h2>
+              <p class="text-example">Дизайн</p>
             </li>
           </a>
 
           <a href="#">
             <li>
               <img src="./images/example-3.jpg" alt="пример работы три" width="370" height="294" />
-              <h2>Ресторан<span lang="en"> Seafood</span></h2>
-              <p>Приложение</p>
+              <h2 class="title-example">
+                Ресторан<span class="title-example" lang="en"> Seafood</span>
+              </h2>
+              <p class="text-example">Приложение</p>
             </li>
           </a>
 
@@ -110,16 +114,20 @@
                 width="370"
                 height="294"
               />
-              <h2>Проект<span lang="en"> Prime</span></h2>
-              <p>Маркетинг</p>
+              <h2 class="title-example">
+                Проект<span class="title-example" lang="en"> Prime</span>
+              </h2>
+              <p class="text-example">Маркетинг</p>
             </li>
           </a>
 
           <a href="">
             <li>
               <img src="./images/example-5.jpg" alt="пример работы пять" width="370" height="294" />
-              <h2>Проект<span lang="en"> Boxes</span></h2>
-              <p>Приложение</p>
+              <h2 class="title-example">
+                Проект<span class="title-example" lang="en"> Boxes</span>
+              </h2>
+              <p class="text-example">Приложение</p>
             </li>
           </a>
 
@@ -131,8 +139,8 @@
                 width="370"
                 height="294"
               />
-              <h2><span lang="en">Inspiration has no Borders</span></h2>
-              <p>Веб-сайт</p>
+              <h2><span class="title-example" lang="en">Inspiration has no Borders</span></h2>
+              <p class="text-example">Веб-сайт</p>
             </li>
           </a>
 
@@ -141,8 +149,10 @@
           <a href="">
             <li>
               <img src="./images/example-7.jpg" alt="пример работы семь" width="370" height="294" />
-              <h2>Издание<span lang="en"> Limited Edition</span></h2>
-              <p>Дизайн</p>
+              <h2 class="title-example">
+                Издание<span class="title-example" lang="en"> Limited Edition</span>
+              </h2>
+              <p class="text-example">Дизайн</p>
             </li>
           </a>
 
@@ -154,8 +164,8 @@
                 width="370"
                 height="294"
               />
-              <h2>Проект<span lang="en"> LAB</span></h2>
-              <p>Маркетинг</p>
+              <h2 class="title-example">Проект<span class="title-example" lang="en"> LAB</span></h2>
+              <p class="text-example">Маркетинг</p>
             </li>
           </a>
 
@@ -168,9 +178,9 @@
                 height="294"
               />
               <h2>
-                <span lang="en">Growing Business</span>
+                <span class="title-example" lang="en">Growing Business</span>
               </h2>
-              <p>Приложение</p>
+              <p class="text-example">Приложение</p>
             </li>
           </a>
         </ul>
@@ -181,10 +191,11 @@
       <!-- how to find us section -->
 
       <address>
-        <a class="logo" href="./index.html">WebStudio</a>
+        <a class="logo-brand" href="./index.html">Web<span class="logo-light">Studio</span></a>
         <ul>
           <li>
             <a
+              class="footer-adress-link"
               href="https://goo.gl/maps/piqngm7oDQpEDh6u6"
               target="_blank"
               rel="noopener nofollow noreferrer"
@@ -195,10 +206,10 @@
           <!-- contacts navigation -->
 
           <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="footer-mail-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
           <li>
-            <a href="tel:+380961111111">+38 096 111 11 11</a>
+            <a class="footer-tel-link" href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
       </address>
