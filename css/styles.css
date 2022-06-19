@@ -6,6 +6,7 @@
     --light-theme-logo: #FFFFFF;
     --dark-theme-logo: #000000;
     --selected-color:
+    --button-filters-background:#F5F4FA;
 }
 
 body {
@@ -26,7 +27,7 @@ body {
     line-height: 1,9;
     letter-spacing: 0.03em;
 
-    color: #2196F3;
+    color: var(--dominant-colour)
 }
 
 /* logo header */
@@ -43,7 +44,6 @@ body {
 /*navigation header*/
 
 .nav-link {
-    font-family: 'Roboto';
     text-decoration: none;
     font-style: normal;
     font-weight: 500;
@@ -56,12 +56,11 @@ body {
 .nav-link:hover,
 .nav-link:focus {
     
-    color: #2196F3;
+    color: var(--dominant-colour)
 }
 
 .contacts-link,
 .portfolio-link{
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1,43;
@@ -73,14 +72,12 @@ body {
 .contacts-link:hover,
 .contacts-link:focus {
     
-    color: #2196F3;
+    color:var(--dominant-colour)
 }
 
 /* main content */
 
 .main-title{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 1,36;
@@ -97,8 +94,6 @@ body {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
@@ -114,12 +109,13 @@ body {
 .order-button:focus,
 .order-button:hover{
     background-color: #188CE8;
+    cursor: pointer;
+    
 }
 
 /* buttons portfolio */
 
 .filters{
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1,62;
@@ -131,16 +127,17 @@ body {
     
     width: 145px;
     height: 38px;
-    
-    background: #F5F4FA;
     border-radius: 4px;
-}
+    
+    background: var(--button-filters-background)
+ }
 
 .filters:hover,
 .filters:focus{
+    cursor: pointer;
     color: var(--light-theme-logo);
     background:var(--dominant-colour)
-}
+ }
 
 /* Benefits section */
 
@@ -278,5 +275,5 @@ body {
 .footer-tel-link:hover,
 .footer-adress-link:hover
 {
-    color: #2196F3;
+    color: var(--dominant-colour)
 }
